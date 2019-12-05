@@ -5,12 +5,14 @@
   font-weight: 600;
 }
 body{
-  background-color: #000;
-  background-image: url("bgt.png"), url("bgb.png"), url("bgc.png");
+  background-color: #090909;
+  background-image: url("bgt.png"), url("bgb.png"), url("bgc.png") ;
   /*width: 100%;*/
   height: auto, auto, auto;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position-y: top, bottom, center;
+  background-position: top, bottom, center;
+  background-attachment: fixed, scroll, scroll;
+
 }
 
 .container{
